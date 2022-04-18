@@ -14,6 +14,6 @@ function insert(num){
             if(result){
                 document.getElementById('result').innerHTML = eval(result);
             }else{
-                document.getElementById('result').innerHTML = "Nada..."
+                document.getElementById('result').innerHTML = "empty field..."
             }
         }
