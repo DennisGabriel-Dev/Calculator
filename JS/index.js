@@ -34,7 +34,7 @@ document.addEventListener('keypress', function(e){
 
 function keyPressed(event){
     event = event || window.event;
-    var key = evt.keyCode || evt.which;
+    var key = event.keyCode || event.which;
     return String.fromCharCode(key); 
 }
 
